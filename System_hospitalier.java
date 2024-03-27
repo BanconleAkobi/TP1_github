@@ -33,13 +33,15 @@ public class System_hospitalier {
         System.out.println(comparaisonDonnees);
     }
 
+
+ 
     private String analyserRequete(Requête requête) {
-        
+    //cette fonction prend en paramètre requête et retourne une confirmation d'analyse de la requête       
         return "requête analysée";
     }
 
     private String comparerDonnes() {
-        
+     // cette fonction retourne la phrase cluster trouvé pour confirmer la comparaison   
         return "Cluster trouvé";
     }
 
